@@ -39,6 +39,8 @@ cat 5000_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com > resolved_dom
 
 You can Support our Work by Joining our Patreon for Exclusive Video Content:
 
-<a href="https://www.patreon.com/bePatron?u=20287909" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+[arbitrary case-insensitive reference text]: https://www.patreon.com/bePatron?u=20287909
+[1]: https://www.patreon.com/bePatron?u=20287909
+[link text itself]: https://www.patreon.com/bePatron?u=20287909
 
 All Rights Reserved - Black Hat Ethical Hacking - blackhatethicalhacking.com 2020
