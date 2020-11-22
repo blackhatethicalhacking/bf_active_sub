@@ -3,7 +3,7 @@ Subdomain Bruteforce - Resolve if Host is Alive and Output the Results - Bounty 
 
 **Take a list that we provide, add a domain, and it will bruteforce it**
 
-Written in Bash, basically host is a command that resolves a host if its alive by providing an ip and more after bruteforcing it from a wordlist provided, that checks prefixes of 5000 top combinations, the way its written as we know stdin and stderr can be controlled, so we redirect it to &> /dev/null; which in terminal world, its like black hole :), and then after resolving if it exist, output the result.
+Written in Bash, basically host is a command that resolves a host if its alive by providing an ip and more after bruteforcing it from a wordlist provided, that checks prefixes of 500/5000 top combinations, the way its written as we know stdin and stderr can be controlled, so we redirect it to &> /dev/null; which in terminal world, its like black hole :), and then after resolving if it exist, output the result in your terminal, or save it to a new list.
 
 You can also Pipe lists as well instead of feeding a list.
 
@@ -17,11 +17,16 @@ After you clone the repo:
 
 chmod +x bheh_bf_sub.sh
 
-# Usage Example:
+# Usage Example With Output in your Terminal:
 
-./bheh_bf_sub.sh example.com  > 5000_Top_Prefix_subdomains.txt
+cat 500_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh blackhatethicalhacking.com
+cat 5000_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh blackhatethicalhacking.com
 
+# Usage Example With Output Saved in a new File:
 
-# This is for educational purpse only, Black Hat Ethical Hacking will not be held responsible nor we discourage doing such techniques without the consents of others.
+cat 500_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh blackhatethicalhacking.com > resolved_domains.txt
+cat 5000_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh blackhatethicalhacking.com > resolved_domains.txt
 
-# All Rights Reserved - Black Hat Ethical Hacking - blackhatethicalhacking.com 2020
+**This is for educational purpse only, Black Hat Ethical Hacking will not be held responsible nor we discourage doing such techniques without the consents of others.**
+
+All Rights Reserved - Black Hat Ethical Hacking - blackhatethicalhacking.com 2020
