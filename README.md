@@ -18,11 +18,13 @@ chmod +x bheh_bf_sub.sh
 # Usage Example With Output in your Terminal:
 
 cat 500_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com
+
 cat 5000_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com
 
 # Usage Example With Output Saved in a new File:
 
 cat 500_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com > resolved_domains.txt
+
 cat 5000_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com > resolved_domains.txt
 
 **This is for educational purpse only, Black Hat Ethical Hacking will not be held responsible nor we discourage doing such techniques without the consents of others.**
