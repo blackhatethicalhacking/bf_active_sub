@@ -12,6 +12,9 @@ This is an active recon scan, and not passive. Pure BF.
 
 After doing this, you can check another tool we wrote that resolves CNAME if they exist, of the list that you will finish from here having a 'golden' list, and if they do not resolve, and they are hanging, it means they are possible available as to be taken AKA SubDomain Takeover - for Bug Bounty ;)
 
+CName Check by BHEH Can be Found here:
+https://github.com/blackhatethicalhacking/CName-Checker-by-bheh
+
 # Installation
 
 apt-get install lolcat
