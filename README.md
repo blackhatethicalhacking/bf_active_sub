@@ -3,7 +3,7 @@ Subdomain Bruteforce - Resolve if Host is Alive and Output the Results - Bounty 
 
 **Take a list that we provide, add a domain, and it will bruteforce it**
 
-Written in Bash, basically host is a command that resolves a host if its alive by providing an ip and more after bruteforcing it from a wordlist provided, that checks prefixes of 50K combinations, the way its written as we know stdin and stderr can be controlled, so we redirect it to &> /dev/null; which in terminal world, its like black hole :), and then after resolving if it exist, output the result.
+Written in Bash, basically host is a command that resolves a host if its alive by providing an ip and more after bruteforcing it from a wordlist provided, that checks prefixes of 5000 top combinations, the way its written as we know stdin and stderr can be controlled, so we redirect it to &> /dev/null; which in terminal world, its like black hole :), and then after resolving if it exist, output the result.
 
 You can also Pipe lists as well instead of feeding a list.
 
@@ -19,7 +19,7 @@ chmod +x bheh_bf_sub.sh
 
 # Usage Example:
 
-./bheh_bf_sub.sh example.com  > deepmagic.com_top50kprefixes.txt
+./bheh_bf_sub.sh example.com  > 5000_Top_Prefix_subdomains.txt
 
 
 # This is for educational purpse only, Black Hat Ethical Hacking will not be held responsible nor we discourage doing such techniques without the consents of others.
