@@ -1,4 +1,5 @@
-# bheh_bf_sub.sh
+# Subdomain Brute-Force The Pure & Fast Programming Way by BHEH
+
 Subdomain Bruteforce - Resolve if Host is Alive and Output the Results after bruteforcing using Pipe for Speed - Bounty Quick Technique
 
 **Take a list that we provide, add a domain, and it will bruteforce it**
