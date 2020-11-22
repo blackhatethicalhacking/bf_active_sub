@@ -1,10 +1,10 @@
-# Subdomain Brute-Force The Pure & Fast Programming Way by BHEH
+# Subdomain Brute-Force The Pure & Fast Programming Way by BHEH with Color :)
 
 Subdomain Bruteforce - Resolve if Host is Alive and Output the Results after bruteforcing using Pipe for Speed - Bounty Quick Technique
 
 **Take a list that we provide, add a domain, and it will bruteforce it**
 
-![alt text](https://imgur.com/8sJxe76.png)
+![alt text](https://imgur.com/dHAEbnN.png)
 
 Written in Bash, basically host is a command that resolves a host if its alive by providing an ip and more after bruteforcing it from a wordlist provided, that checks prefixes of 500/5000 top combinations, the way its written as we know stdin and stderr can be controlled, so we redirect it to &> /dev/null; which in terminal world, its like black hole :), and then after resolving if it exist, output the result in your terminal, or save it to a new list.
 
