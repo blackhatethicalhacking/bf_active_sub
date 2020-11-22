@@ -14,6 +14,8 @@ After doing this, you can check another tool we wrote that resolves CNAME if the
 
 # Installation
 
+apt-get install lolcat
+
 After you clone the repo:
 
 chmod +x bheh_bf_sub.sh
