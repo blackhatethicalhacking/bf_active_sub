@@ -37,4 +37,8 @@ cat 5000_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com > resolved_dom
 
 **This is for educational purpose only, Black Hat Ethical Hacking will not be held responsible nor we discourage doing such techniques without the consents of others.**
 
+You can Support our Work by Joining our Patreon for Exclusive Video Content:
+
+<a href="https://www.patreon.com/bePatron?u=20287909" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+
 All Rights Reserved - Black Hat Ethical Hacking - blackhatethicalhacking.com 2020
