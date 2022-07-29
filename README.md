@@ -41,4 +41,11 @@ You can Support our Work by Joining our Patreon for Exclusive Video Content:
 
 https://www.patreon.com/blackhatethicalhacking
 
-All Rights Reserved - Black Hat Ethical Hacking - blackhatethicalhacking.com 2020
+All Rights Reserved - Black Hat Ethical Hacking - blackhatethicalhacking.com 2022
+
+# Support
+
+If you would like to support us, you can always buy us coffee(s)! :-)
+
+<a href="https://www.buymeacoffee.com/bheh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
