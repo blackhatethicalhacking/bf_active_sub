@@ -64,6 +64,10 @@ Basically, using the below examples, you can perform in various one-liners since
 
 `cat 5000_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com > resolved_domains.txt`
 
+**If you want to save the results, then simply add: `> results.txt` after your one-liner.**
+
+i.e: `cat 500_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com > resolved_domains.txt > results.txt`
+
 # Screenshots
 
 ![alt text](https://imgur.com/dHAEbnN.png)
