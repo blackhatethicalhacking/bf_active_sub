@@ -1,51 +1,80 @@
-# Subdomain Brute-Force The Pure & Fast Programming Way by BHEH with Color :)
+# Subdomain Brute-Force The Pure & Fast Programming Way
 
-Subdomain Bruteforce - Resolve if Host is Alive and Output the Results after bruteforcing using Pipe for Speed - Bounty Quick Technique
+<p align="center">
+<a href="https://www.blackhatethicalhacking.com"><img src="https://pbs.twimg.com/profile_banners/770898848197795840/1650879597/1500x500" width="600px" alt="BHEH"></a>
+</p>
+<p align="center">
+<a href="https://www.blackhatethicalhacking.com"><img src="https://www.blackhatethicalhacking.com/wp-content/uploads/2022/06/BHEH_logo.png" width="300px" alt="BHEH"></a>
+</p>
 
-**Take a list that we provide, add a domain, and it will bruteforce it**
+<p align="center">
+A Subdomain enumeration tool that supports active attack mode (not passive recon) written by Black Hat Ethical Hacking
+</p>
 
-![alt text](https://imgur.com/dHAEbnN.png)
+# What is Subdomain Enumeration/Brute-Force?
 
-Written in Bash, basically host is a command that resolves a host if its alive by providing an ip and more after bruteforcing it from a wordlist provided, that checks prefixes of 500/5000 top combinations, the way its written as we know stdin and stderr can be controlled, so we redirect it to &> /dev/null; which in terminal world, its like black hole :), and then after resolving if it exist, output the result in your terminal, or save it to a new list.
+Brute force means guessing possible combinations of the target until the expected output is discovered. So, in the subdomain context, the brute-forcing is to try the possible combination of words, alphabets, and numbers before the main domain in order to get a subdomain that is resolved to IP address. Sometimes subdomains are not indexed on search engines and are not available on online DNS aggregators sites in that case brute forcing is the best way to find out the subdomains which may have been forgotten by the organization. It is like a treasure for an adversary.
 
-This is an active recon scan, and not passive. Pure BF.
+Our tool has 0 false positives as it verifies it before bringing the result, and is focused on active scanning rather than passive.
+
+It will resolve if the Host is Alive and Output the Results after bruteforcing using Pipe for Speed - Bounty Quick Technique
+
+# Installation
+
+`apt-get install lolcat`
+
+`git clone https://github.com/blackhatethicalhacking/Subdomain_Bruteforce_bheh.git`
+
+`cd Subdomain_Bruteforce_bheh`
+
+`chmod +x bheh_bf_sub.sh`
+
+`./bheh_bf_sub.sh`
+
+# About this tool
+
+Written in Bash, basically host is a command that resolves a host if its alive by providing an IP and more after bruteforcing it from a wordlist provided, that checks prefixes of 500/5000 top combinations, the way its written as we know stdin and stderr can be controlled, so we redirect it to &> `/dev/null;` which in terminal world, its like black hole :), and then after resolving if it exist, output the result in your terminal, or save it to a new list.
+
+**This is an active recon scan, and not passive. Pure BF.**
 
 After doing this, you can check another tool we wrote that resolves CNAME if they exist, of the list that you will finish from here having a 'golden' list, and if they do not resolve, and they are hanging, it means they are possible available as to be taken AKA SubDomain Takeover - for Bug Bounty ;)
 
 CName Check by BHEH Can be Found here:
 https://github.com/blackhatethicalhacking/CName-Checker-by-bheh
 
-# Installation
+# Instructions & Usage Example
 
-apt-get install lolcat
+**Take a list that we provide, add a domain, and it will bruteforce it**
 
-After you clone the repo:
+Basically, using the below examples, you can perform in various one-liners since it supports piping as follows:
 
-chmod +x bheh_bf_sub.sh
+- Usage Example With Output in your Terminal:
 
-# Usage Example With Output in your Terminal:
+`cat 500_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com`
 
-cat 500_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com
+`cat 5000_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com`
 
-cat 5000_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com
+- Usage Example With Output Saved in a new File:
 
-# Usage Example With Output Saved in a new File:
+`cat 500_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com > resolved_domains.txt`
 
-cat 500_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com > resolved_domains.txt
+`cat 5000_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com > resolved_domains.txt`
 
-cat 5000_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com > resolved_domains.txt
+# Screenshots
 
-**This is for educational purpose only, Black Hat Ethical Hacking will not be held responsible nor we discourage doing such techniques without the consents of others.**
+![alt text](https://imgur.com/dHAEbnN.png)
 
-You can Support our Work by Joining our Patreon for Exclusive Video Content:
+# Compatibility
 
-https://www.patreon.com/blackhatethicalhacking
+Tested on Kali Linux, Parrot OS - Any Debian based that uses apt package manager.
 
-All Rights Reserved - Black Hat Ethical Hacking - blackhatethicalhacking.com 2022
+# Disclaimer
+
+This tool is provided for educational and research purpose only. The author of this project are no way responsible for any misuse of this tool. 
+We use it to test under NDA agreements with clients and their consents for pentesting purposes and we never encourage to misuse or take responsibility for any damage caused !
 
 # Support
 
 If you would like to support us, you can always buy us coffee(s)! :blush:
 
 <a href="https://www.buymeacoffee.com/bheh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
