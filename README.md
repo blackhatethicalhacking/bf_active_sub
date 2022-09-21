@@ -32,7 +32,13 @@ https://github.com/blackhatethicalhacking/CName-Checker-by-bheh
 
 # Installation
 
+- Requirements:
+
 `apt-get install lolcat`
+
+`apt-get install figlet`
+
+- Installation
 
 `git clone https://github.com/blackhatethicalhacking/Subdomain_Bruteforce_bheh.git`
 
