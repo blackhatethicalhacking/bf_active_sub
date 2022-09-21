@@ -72,6 +72,9 @@ i.e: `cat 500_Top_Prefix_subdomains.txt | ./bheh_bf_sub.sh example.com > resolve
 
 ![alt text](https://imgur.com/dHAEbnN.png)
 
+![Screenshot 2022-09-21 at 4 55 05 PM](https://user-images.githubusercontent.com/13942386/191523436-703b921d-a314-46bf-a50d-c060e54298b9.png)
+
+
 # Compatibility
 
 Tested on Kali Linux, Parrot OS - Any Debian based that uses apt package manager.
