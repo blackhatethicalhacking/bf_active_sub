@@ -19,18 +19,6 @@ Our tool has 0 false positives as it verifies it before bringing the result, and
 
 It will resolve if the Host is Alive and Output the Results after bruteforcing using Pipe for Speed - Bounty Quick Technique
 
-# Installation
-
-`apt-get install lolcat`
-
-`git clone https://github.com/blackhatethicalhacking/Subdomain_Bruteforce_bheh.git`
-
-`cd Subdomain_Bruteforce_bheh`
-
-`chmod +x bheh_bf_sub.sh`
-
-`./bheh_bf_sub.sh`
-
 # About this tool
 
 Written in Bash, basically host is a command that resolves a host if its alive by providing an IP and more after bruteforcing it from a wordlist provided, that checks prefixes of 500/5000 top combinations, the way its written as we know stdin and stderr can be controlled, so we redirect it to &> `/dev/null;` which in terminal world, its like black hole :), and then after resolving if it exist, output the result in your terminal, or save it to a new list.
@@ -41,6 +29,16 @@ After doing this, you can check another tool we wrote that resolves CNAME if the
 
 CName Check by BHEH Can be Found here:
 https://github.com/blackhatethicalhacking/CName-Checker-by-bheh
+
+# Installation
+
+`apt-get install lolcat`
+
+`git clone https://github.com/blackhatethicalhacking/Subdomain_Bruteforce_bheh.git`
+
+`cd Subdomain_Bruteforce_bheh`
+
+`chmod +x bheh_bf_sub.sh`
 
 # Instructions & Usage Example
 
