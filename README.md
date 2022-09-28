@@ -40,9 +40,9 @@ https://github.com/blackhatethicalhacking/CName-Checker-by-bheh
 
 - Installation
 
-`git clone https://github.com/blackhatethicalhacking/Subdomain_Bruteforce_bheh.git`
+`git clone https://github.com/blackhatethicalhacking/bf_active_sub.git`
 
-`cd Subdomain_Bruteforce_bheh`
+`cd bf_active_sub`
 
 `chmod +x bheh_bf_sub.sh`
 
