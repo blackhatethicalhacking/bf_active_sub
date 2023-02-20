@@ -28,7 +28,7 @@ done
 
  # written by blackhatethicalhacking.com for educational purpose only - blackhatethicalhacking.com
 # Matrix effect
-echo "Exiting the Matrix for 5 seconds:" | toilet --metal -f term -F border
+echo "Entering the Matrix for 5 seconds:" | toilet --metal -f term -F border
 
 
 R='\033[0;31m'
